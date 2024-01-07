@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    display: flex;
+    margin-left: 1430px;
+    padding: 4px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 40px;
+}
+
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: white;
+    list-style: none;
+    padding-top: 4rem;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+.menyu {
+    width: 100%;
+    height: 750px;
+    background-image: linear-gradient(rgba(36, 35, 35, 0.377), rgba(0, 0, 0, 0.558)), url(https://preview.colorlib.com/theme/villa/img/hero_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: opacity(black 0.6);
+
+}
+
+.nav ul {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 200px;
+
+}
+
+.nav li {
+    font-size: 40px;
+    list-style: none;
+    color: black;
+    margin: 15px;
+    cursor: pointer;
+
+
+}
+
+.info {
+    width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 100px;
+    margin-left: 280px;
+}
+
+.info li {
+    color: rgb(88, 85, 85);
+    font-size: 13px;
+    list-style: none;
+    margin: 25px;
+
+}
+
+#stl {
+    color: rgba(142, 137, 137, 0.827);
+    letter-spacing: 2px;
+}
+
+#connect {
+    cursor: pointer;
+}
+
+.menyu a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: flex;
+    margin-top: -680px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wlc {
+    width: 60%;
+    height: 700px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.menyu div h2 {
+    font-size: 80px;
+}
+
+.menyu div p {
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menyu div button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    padding: 14px 40px;
+    margin: 8px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#exp {
+    background-color: #e61c5d;
+}
+
+#exp:hover {
+    background-color: #b11949;
+}
+
+#dwn {
+    border: 2px solid white;
+    background-color: rgba(250, 235, 215, 0);
+}
+
+#dwn:hover {
+    background-color: white;
+    color: black;
+}
+
+.visit {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxs {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+#sttl {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(142, 137, 137, 0.827);
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.boxs .div {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.boxs .div .box {
+    width: 23%;
+    height: 400px;
+    margin-top: 20px;
+
+}
+
+.boxs .div .box .img {
+    width: 100%;
+    height: 200px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box h3 {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.place {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text {
+    width: 52%;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.text h2 {
+    font-size: 75px;
+}
+
+.text p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: gray;
+}
+    
+
+
+#carouselExampleAutoplaying {
+    width: 74%;
+    height: 400px;
+    margin: auto;
+}
+
+#crsl {
+    margin-top: 400px;
+}
+
+.blog {
+    background-image: url(https://preview.colorlib.com/theme/villa/img/round.png);
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    align-items: center;
+}
+
+.blog text {
+    margin-top: 600px;
+}
+
+.blog .div {
+
+    width: 90%;
+    height: 80%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -180px;
+   
+}
+
+.blog .div .box {
+    background-color: white;
+    width: 50%;
+    height: 400px;
+    margin-top: 50px;
+    cursor: pointer;
+
+
+}
+
+.blog .div .box .img {
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    background-color: rgb(35, 34, 34);
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+   
+}
+.footer p{
+    margin-left: 150px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    font-size: 21px;
+    margin-left: 550px;
+    cursor: pointer;
+}
